@@ -5,5 +5,12 @@ Határozd meg a lista hosszát egy ciklus segítségével
 és írd ki!
 """
 
+szamok = [5, 8, 12, 15, 22]
 
-lista = [[5, 8, 12, 15, 22]]
+print(f"A lista hossza len függvénnyel {len(szamok)}")
+
+darab = 0
+for szam in szamok:
+    darab += 1
+
+print(f"A list hossza for ciklussal {darab}")
